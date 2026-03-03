@@ -1,4 +1,4 @@
-#author: Mirza Samad
+# author: Mirza Samad
 
 from sklearn import svm
 import numpy as np

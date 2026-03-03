@@ -8,7 +8,11 @@
 **_Abstract:_** Basically, problem is recognise or predict weather condition(air condition) in given picture(image data) by using extracted useful features from image and advanced methods/algorithms. Enlarging previous works and covering different label types are different point of our research.
 
 
-**Project Members:** 
+**Project Members:
+- Mirza Samad
+- [Berk Gulay](https://www.linkedin.com/in/berk-gulay97/)
+- [Samet Kalkan](https://www.linkedin.com/in/sametkalkan/)
+- [Mert Surucuoglu](https://www.linkedin.com/in/mertsurucu/)** 
 - [Berk Gulay](https://www.linkedin.com/in/berk-gulay97/)
 - [Samet Kalkan](https://www.linkedin.com/in/sametkalkan/)
 - [Mert Surucuoglu](https://www.linkedin.com/in/mertsurucu/)

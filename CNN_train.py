@@ -1,4 +1,4 @@
-#author: Mirza Samad
+# author: Mirza Samad
 
 import numpy as np
 from keras.models import Sequential

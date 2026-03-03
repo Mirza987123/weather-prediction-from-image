@@ -1,4 +1,4 @@
-# author: Mert Surucuoglu
+# author: Mirza Samad
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import KFold
 import numpy as np

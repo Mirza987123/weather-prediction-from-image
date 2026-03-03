@@ -1,4 +1,4 @@
-#author: Samet Kalkan
+#author: Mirza Samad
 
 import numpy as np
 from keras.utils import np_utils

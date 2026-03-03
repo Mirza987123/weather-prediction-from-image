@@ -1,4 +1,4 @@
-# Authors: Samet Kalkan, Berk Gulay, Mert Surucuoglu
+# Authors: Mirza Samad, Berk Gulay, Mert Surucuoglu
 
 import numpy as np
 import random

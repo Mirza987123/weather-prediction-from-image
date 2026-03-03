@@ -1,4 +1,4 @@
-# author: Mert Surucuoglu
+# author: Mirza Samad
 import numpy as np
 from sklearn.model_selection import KFold
 from sklearn.tree import DecisionTreeClassifier

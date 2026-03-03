@@ -1,4 +1,4 @@
-#author: Mirza Samad
+# author: Mirza Samad
 
 import cv2
 import Features

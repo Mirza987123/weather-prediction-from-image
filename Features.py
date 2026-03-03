@@ -1,4 +1,4 @@
-#author Berk Gulay , Mert Surucuoglu
+#author: Mirza Samad
 
 import numpy as np
 import cv2

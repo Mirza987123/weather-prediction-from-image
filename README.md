@@ -17,6 +17,16 @@
 - Mirza Samad
 - Berk Gulay
 - Samet Kalkan
+- Mert Surucuoglu
+- Mirza Samad
+- Mirza Samad
+- Berk Gulay
+- Samet Kalkan
+- Mert Surucuoglu
+- Mirza Samad
+- Mirza Samad
+- Berk Gulay
+- Samet Kalkan
 - Mert Surucuoglu** 
 - [Berk Gulay](https://www.linkedin.com/in/berk-gulay97/)
 - [Samet Kalkan](https://www.linkedin.com/in/sametkalkan/)

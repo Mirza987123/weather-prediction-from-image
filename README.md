@@ -10,6 +10,7 @@
 
 **Project Members:
 - Mirza Samad
+- Mirza Samad
 - Berk Gulay
 - Samet Kalkan
 - Mert Surucuoglu

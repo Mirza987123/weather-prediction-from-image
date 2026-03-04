@@ -22,7 +22,7 @@ vd = T.separate_data(validation_data, validation_label)  # Separate validation d
 num_classes = 5  # Cloudy,Sunny,Rainy,Snowy,Foggy
 
 # for example if label is 4 converts it [0,0,0,0,1]
-validation_label = np_utils.to_categorical(validation_label, num_classes)
+validation_label = np_utils.to_categorical(validation_label, num_classes)  # Convert labels to categorical format
 
 
 # loads trained model and architecture

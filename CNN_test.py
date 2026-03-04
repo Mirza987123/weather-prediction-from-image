@@ -6,7 +6,7 @@ from keras.models import load_model
 import tools as T
 
 
-validation_data = np.load("../concat100/validation_data.npy")
+validation_data = np.load("../concat100/validation_data.npy")  # Load validation data from .npy file
 validation_label = np.load("../concat100/validation_label.npy")
 
 # normalization

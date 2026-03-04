@@ -16,7 +16,7 @@ validation_data = validation_data / 255.0
 # each index stores a list which stores validation data and its label according to index no
 # vd[0] = [val,lab] for class 0
 # vd[1] = [val,lab] for class 1 and so on
-vd = T.separate_data(validation_data, validation_label)
+vd = T.separate_data(validation_data, validation_label)  # Separate validation data and labels into classes
 
 # number of class
 num_classes = 5  # Cloudy,Sunny,Rainy,Snowy,Foggy

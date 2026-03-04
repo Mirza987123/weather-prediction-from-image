@@ -35,7 +35,7 @@ acc = T.get_accuracy_of_class(T.binary_to_class(validation_label), y)  # Calcula
 print("General Accuracy for Validation Data:", acc)
 print("-----------------------------")
 
-for i in range(len(vd)):
+for i in range(len(vd)):  # Iterate through each class for accuracy calculation
     v_data = vd[i][0]
     v_label = vd[i][1]
     y = model.predict_classes(v_data, verbose=0)

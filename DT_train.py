@@ -68,7 +68,7 @@ sunny_accuracy = 0
 rainy_accuracy = 0
 snowy_accuracy = 0
 foggy_accuracy = 0
-# K-fold splits into 10 and shuffles the indexes
+# K-fold splits the dataset into 10 parts and shuffles the indices for cross-validation
 split_size = 10
 kf = KFold(n_splits=10, shuffle=True)
 kf.get_n_splits(data)

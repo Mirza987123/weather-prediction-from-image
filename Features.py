@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 import math
 
-def contrast(rgb_image):
+def contrast(rgb_image):  # Calculate contrast of the given RGB image
     d_primes = []
     b_primes = []
 

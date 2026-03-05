@@ -11,6 +11,11 @@ def describe(image_path,cropped_image_path,cont=True,bright=True,haze=True,sharp
 # Initialize the description array
 # Calculate various features and append to the description array
 # Return the final description array
+# Describe image features based on various metrics
+# Read the original and cropped images
+# Initialize the description array
+# Calculate various features and append to the description array
+# Return the final description array
   # Describe image features based on various metrics
     image = cv2.imread(image_path, cv2.IMREAD_COLOR)
     cropped_image_rgb = cv2.imread(cropped_image_path, cv2.IMREAD_COLOR)

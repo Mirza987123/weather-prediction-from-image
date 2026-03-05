@@ -7,7 +7,7 @@ from sklearn import tree
 import os
 os.environ["PATH"] += os.pathsep + 'C:/Users/Mert/Desktop/graphviz-2.38/release/bin'
 
-# This function seperates into sub classes for getting accuracy for each classes
+# This function separates data into subclasses for accuracy calculation
 def separate_data(_test_data, _test_label, class_num):
     separated_data = []
     separated_label = []

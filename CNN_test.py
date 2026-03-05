@@ -36,7 +36,7 @@ print("General Accuracy for Validation Data:", acc)
 print("-----------------------------")
 
 for i in range(len(vd)):  # Iterate through each class for accuracy calculation  # Iterate through each class for accuracy calculation
-    v_data = vd[i][0]  # Get validation data for the current class
+    v_data = vd[i][0]  # Get validation data for the current class  # Get validation data for the current class
     v_label = vd[i][1]  # Get validation labels for the current class
     y = model.predict_classes(v_data, verbose=0)  # Predict classes for the current class validation data  # Predict classes for the current class validation data
     acc = T.get_accuracy_of_class(v_label, y)  # Calculate accuracy for the current class

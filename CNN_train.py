@@ -44,7 +44,7 @@ model.add(Dropout(0.5))
 # Add fully connected layer with a softmax activation function
 model.add(Dense(num_classes, activation='softmax'))
 
-# Compile neural network
+# Compile neural network - Set loss function, optimizer, and metrics for training
 model.compile(loss='categorical_crossentropy', # Cross-entropy
                 optimizer='rmsprop', # Root Mean Square Propagation
                 metrics=['accuracy']) # Accuracy performance metric

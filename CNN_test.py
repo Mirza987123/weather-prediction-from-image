@@ -9,7 +9,7 @@ import tools as T
 validation_data = np.load("../concat100/validation_data.npy")
 validation_label = np.load("../concat100/validation_label.npy")
 
-# normalization
+# normalization - Scale pixel values to the range [0, 1] for better model performance
 validation_data = validation_data / 255.0
 
 

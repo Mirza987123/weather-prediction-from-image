@@ -13,7 +13,7 @@ train_data = np.load("../concat100/train_data.npy")
 train_label = np.load("../concat100/train_label.npy")
 size = train_data.shape[1]
 
-# normalization
+# normalization - Scale pixel values to the range [0, 1] for better model performance
 train_data = train_data / 255.0
 
 train_data = train_data.reshape(train_data.shape[0], size, size, 3)

@@ -18,7 +18,7 @@ validation_data = validation_data / 255.0
 # vd[1] = [val,lab] for class 1 and so on
 vd = T.separate_data(validation_data, validation_label)
 
-# number of class
+# number of class - Define the number of weather classes for classification
 num_classes = 5  # Cloudy,Sunny,Rainy,Snowy,Foggy
 
 # for example if label is 4 converts it [0,0,0,0,1]

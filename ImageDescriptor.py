@@ -5,7 +5,7 @@ import Features
 import numpy as np
 import os
 
-def describe(image_path,cropped_image_path,cont=True,bright=True,haze=True,sharpness=True,color_hist=True,intensity_hist=True,white_thresh=175):
+def describe(image_path,cropped_image_path,cont=True,bright=True,haze=True,sharpness=True,color_hist=True,intensity_hist=True,white_thresh=175):  # Describe image features based on various metrics
     image = cv2.imread(image_path, cv2.IMREAD_COLOR)
     cropped_image_rgb = cv2.imread(cropped_image_path, cv2.IMREAD_COLOR)
 

@@ -4,7 +4,12 @@ import numpy as np
 import cv2
 import math
 
-def contrast(rgb_image):  # Calculate contrast of the given RGB image
+def contrast(rgb_image):
+# Calculate contrast of the given RGB image
+# Initialize lists to store pixel values
+# Calculate max and min pixel values for contrast
+# Return normalized contrast and other metrics
+  # Calculate contrast of the given RGB image
     d_primes = []
     b_primes = []
 

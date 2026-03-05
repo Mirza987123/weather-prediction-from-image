@@ -26,7 +26,7 @@ validation_label = np_utils.to_categorical(validation_label, num_classes)  # Con
 
 
 # loads trained model and architecture
-model = load_model("modelsCNN/size100/trainedModelE20.h5")  # Load the trained CNN model  # Load the trained CNN model
+model = load_model("modelsCNN/size100/trainedModelE20.h5")  # Load the trained CNN model  # Load the trained CNN model  # Load the trained CNN model
 
 
 # -------predicting part-------

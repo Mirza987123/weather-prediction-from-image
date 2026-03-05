@@ -16,6 +16,10 @@ def binary_to_class(label):
 # Initialize a new label list
 # Loop through each label and convert to class vector
 # Return the new class vector
+# Converts a binary class matrix to class vector
+# Initialize a new label list
+# Loop through each label and convert to class vector
+# Return the new class vector
 
     """ Converts a binary class matrix to class vector(integer)
         # Arguments:

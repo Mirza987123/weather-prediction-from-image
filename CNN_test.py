@@ -31,7 +31,7 @@ model = load_model("modelsCNN/size100/trainedModelE20.h5")  # Load the trained C
 
 # -------predicting part-------
 y = model.predict_classes(validation_data, verbose=0)  # Predict classes for validation data  # Predict classes for validation data  # Predict classes for validation data
-acc = T.get_accuracy_of_class(T.binary_to_class(validation_label), y)  # Calculate accuracy of predictions  # Calculate accuracy of predictions
+acc = T.get_accuracy_of_class(T.binary_to_class(validation_label), y)  # Calculate accuracy of predictions  # Calculate accuracy of predictions  # Calculate accuracy of predictions
 print("General Accuracy for Validation Data:", acc)
 print("-----------------------------")
 

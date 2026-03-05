@@ -26,7 +26,7 @@ for train_index, test_index in kf.split(data):
     train_data_reshaped = train_data.reshape((len(train_data), -1))
     test_data_reshaped = test_data.reshape((len(test_data), -1))
 
-    # Create a random forest Classifier. By convention, clf means 'Classifier'
+    # Create a random forest Classifier - Initialize the Random Forest model for training By convention, clf means 'Classifier'
     clf = RandomForestClassifier(bootstrap=False,
                                  max_leaf_nodes=None,
                                  n_estimators=12,  # The number of trees in the forest

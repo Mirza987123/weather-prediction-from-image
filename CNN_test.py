@@ -24,6 +24,7 @@ vd = T.separate_data(validation_data, validation_label)
 num_classes = 5  # Cloudy,Sunny,Rainy,Snowy,Foggy
 
 # for example if label is 4 converts it [0,0,0,0,1]
+# Convert the integer labels to a binary class matrix (one-hot encoding).
 validation_label = np_utils.to_categorical(validation_label, num_classes)
 
 

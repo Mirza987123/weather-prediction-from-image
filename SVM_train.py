@@ -18,6 +18,9 @@ data = np.load('../features/features.npy')
 # Loop through each fold for training and testing
 # Train the SVM Classifier
 # Calculate accuracy for each class and overall
+# Loop through each fold for training and testing
+# Train the SVM Classifier
+# Calculate accuracy for each class and overall
 
 data_label = np.load('../features/labels.npy')
 data_label = np.reshape(data_label, (np.shape(data)[0],))

@@ -38,6 +38,7 @@ model = load_model("modelsCNN/size100/trainedModelE20.h5")
 y = model.predict_classes(validation_data, verbose=0)
 acc = T.get_accuracy_of_class(T.binary_to_class(validation_label), y)
 print("General Accuracy for Validation Data:", acc)
+# Print the overall accuracy of the model on the validation dataset.
 print("-----------------------------")
 
 for i in range(len(vd)):

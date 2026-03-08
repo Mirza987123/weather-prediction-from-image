@@ -24,6 +24,10 @@ def predict_image_with_CNN(path, model):
 # Load and preprocess the image
 # Make predictions using the model
 # Return the image path and predicted class
+# Function to predict the class of an image using the CNN model
+# Load and preprocess the image
+# Make predictions using the model
+# Return the image path and predicted class
 
     """
         predicts an image

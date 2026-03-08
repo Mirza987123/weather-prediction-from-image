@@ -33,6 +33,7 @@ validation_label = np_utils.to_categorical(validation_label, num_classes)
 
 # loads trained model and architecture
 # Load the pre-trained model from the specified file path.
+# Load the pre-trained model from the specified file path.
 model = load_model("modelsCNN/size100/trainedModelE20.h5")
 
 

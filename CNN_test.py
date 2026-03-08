@@ -28,6 +28,15 @@ validation_label = np.load("../concat100/validation_label.npy")
 # Start of the prediction process for validation data
 # Calculate accuracy for the entire validation dataset
 # Loop through each class to calculate accuracy
+# Load validation data and labels from .npy files
+# Normalize the validation data
+# Separate validation data and labels into classes
+# Define the number of weather classes for classification
+# Convert labels to categorical format
+# Load the trained model
+# Start of the prediction process for validation data
+# Calculate accuracy for the entire validation dataset
+# Loop through each class to calculate accuracy
 
 validation_data = validation_data / 255.0
 

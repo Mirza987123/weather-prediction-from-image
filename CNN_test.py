@@ -10,6 +10,7 @@ validation_data = np.load("../concat100/validation_data.npy")
 validation_label = np.load("../concat100/validation_label.npy")
 
 # normalization
+# Normalize the validation data by scaling pixel values to the range [0, 1].
 validation_data = validation_data / 255.0
 
 

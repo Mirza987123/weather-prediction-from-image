@@ -26,6 +26,12 @@ os.environ["PATH"] += os.pathsep + 'C:/Users/Mert/Desktop/graphviz-2.38/release/
 # Loop through each fold for training and testing
 # Create and train the Decision Tree Classifier
 # Calculate accuracy for each class and overall
+# Function to calculate accuracy based on predictions
+# Load data from .npy files
+# Initialize KFold for cross-validation
+# Loop through each fold for training and testing
+# Create and train the Decision Tree Classifier
+# Calculate accuracy for each class and overall
 
 def separate_data(_test_data, _test_label, class_num):
     separated_data = []

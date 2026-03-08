@@ -13,6 +13,10 @@ import tools as T
 # Loop through each fold for training and testing
 # Create and train the Random Forest Classifier
 # Calculate accuracy for each class and overall
+# Initialize KFold for cross-validation
+# Loop through each fold for training and testing
+# Create and train the Random Forest Classifier
+# Calculate accuracy for each class and overall
 
 data = np.load('../features/features.npy')
 data_label = np.load('../features/labels.npy')

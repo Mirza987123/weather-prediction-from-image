@@ -47,6 +47,17 @@ size = train_data.shape[1]
 # Compile the model with loss function and optimizer
 # Train the model on the training data
 # Save the trained model to a file
+# Load training data and labels from .npy files
+# Reshape training data for the model
+# Define the number of weather classes for classification
+# Convert labels to categorical format
+# Initialize the Sequential model
+# Add convolutional layers and pooling layers
+# Flatten the output for the fully connected layers
+# Add fully connected layers with dropout
+# Compile the model with loss function and optimizer
+# Train the model on the training data
+# Save the trained model to a file
 
 train_data = train_data / 255.0
 

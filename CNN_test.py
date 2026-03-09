@@ -33,6 +33,7 @@ num_classes = 5  # Cloudy,Sunny,Rainy,Snowy,Foggy
 # Convert the integer labels to a binary class matrix (one-hot encoding).
 # Convert the integer labels to a binary class matrix (one-hot encoding).
 # Convert the integer labels to a binary class matrix (one-hot encoding).
+# Convert the integer labels to a binary class matrix (one-hot encoding).
 validation_label = np_utils.to_categorical(validation_label, num_classes)
 
 

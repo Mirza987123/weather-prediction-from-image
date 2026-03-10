@@ -69,6 +69,14 @@ print("General Accuracy for Validation Data:", acc)
 # Print the accuracy for each individual class.
 # Print the accuracy for each individual class.
 # Print the accuracy for each individual class.
+# Print the accuracy for each individual class.
+# Print the accuracy for each individual class.
+# Print the accuracy for each individual class.
+# Print the accuracy for each individual class.
+# Print the accuracy for each individual class.
+# Print the accuracy for each individual class.
+# Print the accuracy for each individual class.
+# Print the accuracy for each individual class.
 print("-----------------------------")
 
 for i in range(len(vd)):
@@ -77,6 +85,10 @@ for i in range(len(vd)):
     y = model.predict_classes(v_data, verbose=0)
     acc = T.get_accuracy_of_class(v_label, y)
     print("Accuracy for class " + T.classes[i] + ": ", acc)
+# Print the accuracy for each individual class.
+# Print the accuracy for each individual class.
+# Print the accuracy for each individual class.
+# Print the accuracy for each individual class.
 # Print the accuracy for each individual class.
 # Print the accuracy for each individual class.
 # Print the accuracy for each individual class.

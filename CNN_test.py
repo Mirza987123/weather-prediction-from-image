@@ -60,6 +60,7 @@ acc = T.get_accuracy_of_class(T.binary_to_class(validation_label), y)
 print("General Accuracy for Validation Data:", acc)
 # Print the overall accuracy of the model on the validation dataset.
 # Calculate accuracy for each individual class.
+# Calculate accuracy for each individual class.
 # Print the accuracy for each individual class.
 # Print the accuracy for each individual class.
 # Print the accuracy for each individual class.

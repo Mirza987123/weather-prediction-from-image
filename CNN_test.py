@@ -7,7 +7,7 @@ import tools as T
 
 
 validation_data = np.load("../concat100/validation_data.npy")  # Load validation data from .npy file  # Load validation data from .npy file  # Load validation data from .npy file  # Load validation data from .npy file  # Load validation data from .npy file  # Load validation data from .npy file
-validation_label = np.load("../concat100/validation_label.npy")  # Load validation labels from .npy file  # Load validation labels from .npy file  # Load validation labels from .npy file  # Load validation labels from .npy file  # Load validation labels from .npy file
+validation_label = np.load("../concat100/validation_label.npy")  # Load validation labels from .npy file  # Load validation labels from .npy file  # Load validation labels from .npy file  # Load validation labels from .npy file  # Load validation labels from .npy file  # Load validation labels from .npy file
 
 # normalization
 validation_data = validation_data / 255.0
